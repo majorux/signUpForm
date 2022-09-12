@@ -11,6 +11,7 @@
 <body>
   <img class="bigImg" src="/img/photo-1542328080-6b1ed06a3116.avif">
   <img class= "linedImg" src="/img/odin-lined.png">
+  <div class="logoText">ODIN</div>
   <div class="container">
     <div class="header">
       <p>This is not a real online service! You know you need somthing like this in your life to help you realize your deepest dreams.<br> Sign up now to get started </p>
@@ -22,18 +23,18 @@
           <div class="headTable">Let's do this!</div>
           <div class="blocks">
             <div>
-              <legend>FIRST NAME</legend>
-              <input type = "text" name ="first_name" id="first_name"> 
+              <legend>*FIRST NAME</legend>
+              <input type = "text" name ="first_name" id="first_name" minlength="3" required> 
             </div>
             <div>
-              <legend>LAST NAME</legend>
-              <input type = "text" name ="last_name" id="last_name"> 
+              <legend>*LAST NAME</legend>
+              <input type = "text" name ="last_name" id="last_name" minlength="3" required> 
             </div>
           </div>
           <div class="blocks">
             <div>
-              <legend>EMAIL</legend>
-              <input type = "email" name ="email" id="email"> 
+              <legend>*EMAIL</legend>
+              <input type = "email" name ="email" id="email" required> 
             </div>
             <div>
               <legend>PHONE NUMBER</legend>
@@ -42,16 +43,16 @@
           </div>
           <div class="blocks">
             <div>
-              <legend>PASSWORD</legend>
-              <input type = "password" name ="password" id="password"> 
+              <legend>*PASSWORD</legend>
+              <input type = "password" name ="password" id="password" minlength="6" required> 
             </div>
             <div>
-              <legend>CONFIRM PASSWORD</legend>
-              <input type = "password" name ="password" id="password"> 
+              <legend>*CONFIRM PASSWORD</legend>
+              <input type = "password" name ="password" id="password" required> 
             </div>
           </div>
         </div>
-        <button>Create Application</button>
+        <button type="submit">Create Application</button>
         <div class="login">
           Already have an account? <a href="#">login</a>
         </div>

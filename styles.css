@@ -1,7 +1,7 @@
 body{
   display: flex;
   margin: 0;
-  background-color: rgb(179, 179, 204);
+  background-color: rgb(250, 255, 212);
   
 }
 
@@ -12,6 +12,7 @@ p{
 }
 
 .bigImg{
+  max-width: 400px;
   width: 40%;
   height: 100vh;
 }
@@ -21,6 +22,15 @@ p{
 .linedImg{
   position: absolute;
   width: 100px;
+  background-color: #000000b0;
+  padding-right: 160px;
+}
+.logoText{
+  position: absolute;
+  color: aliceblue;
+  font-size: 60px;
+  margin-left: 100px;
+  margin-top: 30px;
 }
 
 .headTable{
@@ -33,11 +43,20 @@ p{
   gap: 60px;
   margin-bottom: 20px;
 }
+input:focus{
+  border-color: rgb(130, 130, 236);
+}
+input:invalid{
+  border-color: red;
+}
+input:valid{
+  border-color: green;
+}
 
 .highlight{
   padding: 20px;
   margin: 0;
-  background-color:  rgb(215, 215, 228);;
+  background-color:  rgb(252, 252, 252);;
 }
 
 button{
@@ -45,8 +64,8 @@ button{
   padding: 8px;
   font-weight: 700;
   border-radius: 10% 10% 10% 10%;
-  background-color: rgb(81, 81, 134);
-  border: rgb(173, 173, 201);
+  background-color: #596D48;
+  border: #596D48;
 }
 .login{
   margin-bottom: 8px;
