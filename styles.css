@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  margin: 0;
+  background-color: rgb(179, 179, 204);
+  
+}
+
+p{
+  padding: 20px;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.bigImg{
+  width: 40%;
+  height: 100vh;
+}
+.container{
+  margin-top: 70px;
+}
+.linedImg{
+  position: absolute;
+  width: 100px;
+}
+
+.headTable{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.blocks{
+  display: flex;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+
+.highlight{
+  padding: 20px;
+  margin: 0;
+  background-color:  rgb(215, 215, 228);;
+}
+
+button{
+  margin: 15px;
+  padding: 8px;
+  font-weight: 700;
+  border-radius: 10% 10% 10% 10%;
+  background-color: rgb(81, 81, 134);
+  border: rgb(173, 173, 201);
+}
+.login{
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
